@@ -9,6 +9,7 @@ body {
 
 img {
   width: 600px;
+  margin: 0.5rem;
 }
 
 button {
@@ -23,4 +24,64 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  margin: 0.5rem;
+}
+
+button {
+  font-size:medium;
+  padding: 0.5rem 1rem;
+}
+
+ul {
+  padding-left: 0;
+  margin-left:0;
+}
+
+li {
+  list-style-type: none;
+  padding: 0em 0.4rem;
+}
+
+a {
+  text-decoration: none;
+  color:dimgrey;
+}
+
+.header, .footer {
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  align-items: center;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  background-color:lightgray;
+}
+
+.input {
+  margin-bottom: 0.4rem;
 }

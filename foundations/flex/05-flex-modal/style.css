@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
+  display:flex;
+  justify-content: space-between;
+  margin: 2%;
 }
 
 .icon {
@@ -50,10 +54,27 @@ body {
   padding: 0;
 }
 
+.headings {
+  display:flex;
+  margin-left: 0.6rem;
+}
+
+.header {
+  width:25rem;
+  font-weight: 800;
+}
+
+.text {
+  margin-top:0.5rem;
+  margin-bottom: 0.8rem;
+  margin-left: 0.6rem;
+}
+
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin-left:0.6rem;
 }
 
 button.continue {
